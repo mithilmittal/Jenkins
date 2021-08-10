@@ -12,7 +12,7 @@ pipeline {
 		stage ("run") {
 			steps {
 				echo "Running"
-				bat """ java hello_world"""
+				bat """ java hello_world Hi Everyone"""
 				}
 			}
 			
